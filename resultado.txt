@@ -1,0 +1,14 @@
+calculo de la integral definida
+Introduzca el limite superior
+8
+Introduzca el limite inferior2
+Introduzca el incremento1
+5.000000 3.000000
+12.000000 4.000000
+21.000000 5.000000
+32.000000 6.000000
+valor de la integral =52.000000
+--------------------------------
+Process exited after 5.318 seconds with return value 0
+Presione una tecla para continuar . . .
+
