@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 float f(float x)
-
 {return 2*x;}
 
 float integrar(float lim_inf, float lim_sup, float inc){
@@ -21,7 +20,6 @@ float integrar(float lim_inf, float lim_sup, float inc){
 }
 //------------------------------------------------------------
 int main()
-
 {
 float lim_sup,lim_inf,inc;
 printf("calculo de la integral definida\n");
@@ -39,5 +37,4 @@ do
 	}while(inc<=0);
 printf("valor de la integral =%f",integrar(lim_inf,lim_sup,inc));
 return 0;
-
 }
