@@ -26,6 +26,9 @@ int main()
     x+=incremento;
     printf("%.3f %.3f\n", integral,x);
   }
+  //-------------------------------------------------------------
+  //esto hace la operacion para encontrar el valor de la integral
   integral+=(lim_sup-x)*f(lim_inf+x/2.0);
+  printf("\nvalor de la integral =%f", integral);
 return 0;
 }

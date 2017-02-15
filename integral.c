@@ -2,7 +2,8 @@
 
 float f(float x)
 {return 2*x;}
-
+//¿que hace f?
+//------------------------------------------------------------
 float integrar(float lim_inf, float lim_sup, float inc){
 	float integral, x=lim_inf;
 
