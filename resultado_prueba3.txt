@@ -1,0 +1,11 @@
+Calculo de una integral definida
+Dame el limite superior
+3
+Dame el limite inferior
+1
+Dame el numero de particiones
+1
+2.000000
+2.000000
+8.000000
+El valor aprox. de la integral es: 8.000000
