@@ -19,7 +19,7 @@ int main ()
 
 
   do{
-    printf("Dame el intervalo\n");
+    printf("Dame el numero de particiones\n");
     scanf("%f", &inter);
   }while (inter<=0);
 
