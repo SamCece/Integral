@@ -29,6 +29,7 @@ int main()
   //-------------------------------------------------------------
   //esto hace la operacion para encontrar el valor de la integral
   integral+=(lim_sup-x)*f(lim_inf+x/2.0);
+  //integral+=(lim_sup-x)*(2*x)(lim_inf+x/2.0);?
   printf("\nvalor de la integral =%f", integral);
 return 0;
 }

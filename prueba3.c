@@ -10,19 +10,18 @@ int main ()
     printf("Dame el limite superior\n");
     scanf("%f", &limsup);
   }while(limsup <= 0);
-  system("cls");
+
 
   do{
     printf("Dame el limite inferior\n");
     scanf("%f", &liminf);
   }while (liminf>limsup);
-  system("cls");
+
 
   do{
     printf("Dame el intervalo\n");
     scanf("%f", &inter);
   }while (inter<=0);
-  system("cls");
 
   suma=0.0;
   deltax = (limsup-liminf)/inter;
@@ -43,7 +42,7 @@ int main ()
       printf("%f\n", suma);
     }
   }
-  
+
   integral = (deltax/2)*suma;
   printf("El valor aprox. de la integral es: %f\n", integral);
   return 0;
